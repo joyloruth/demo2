@@ -1,0 +1,313 @@
+html,body
+{
+  scroll-behavior: smooth;
+  background-image: linear-gradient(to right,  #9cdf4f,#b8f36a);
+}
+
+/********NAVIGATION*********************/
+#nav-bar
+{
+  position: sticky;
+  top:0;
+  z-index: 10;
+}
+
+.navbar 
+{ 
+  background-image: linear-gradient(to right,  #9cdf4f,#b8f36a);
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+
+.menu
+{
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  font-family: 'Chango';
+  font-size: 18px;
+}
+
+.menu:hover
+{
+  background-color: rgba(87, 129, 8, 0.815);
+  border: none;
+  font-family: 'Chango';
+  color: rgb(255, 255, 255);
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 3px 3px;
+  cursor: default;
+  border-radius: 10px;
+  pointer-events: pointer;
+}
+
+/********ABOUT ME *********************/
+.about
+{
+  background-color: rgb(146, 110, 110);
+  padding-top: 20px;
+  color:#ffffff;
+  font-family: monospace;
+}
+
+
+
+
+/********PORTFOLIO *********************/
+.header-title
+{
+  font-size: 60px;
+  color: rgba(243, 243, 243, 0.884);
+  margin: auto;
+  font-family:'Poppins';
+  font-weight: bold;
+  padding-top: 10px;
+  text-shadow: 2px 2px #5e8b38e5;
+}
+
+.intro-title
+{
+  font-size: 40px;
+  color: rgb(48, 97, 15);
+  margin: auto;
+  font-family:'Roboto';
+  font-weight: bold;
+  padding-top: 10px;
+  
+}
+
+.paragraph-title
+{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  font-family:'Poppins';
+  
+  padding-top: 10px;
+  
+}
+
+
+
+img
+ {
+  
+  height: auto;
+  width:700px;
+  
+}
+
+img:hover {
+max-width: 95% ;
+}
+
+
+
+
+.portfolio
+{
+  margin-right: auto;
+}
+
+.port-title
+{
+  font-size: 40px;
+  color: #fff;
+  margin-top: 100px;
+  font-family: "Open Sans","Helvetica","Arial",sans-serif;
+  font-weight: bold;
+}
+
+.card{
+  vertical-align: middle;
+  background-color: rgba(6, 12, 24, 0.993);
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: outset;
+  border-color: rgba(100, 250, 217, 0.281);
+  margin-top: 10px;
+  box-shadow: 10px 10px 2.5px rgba(0, 0, 0, 0.651);
+  transition: width 40s, height 40s;
+}
+
+.card:hover
+{
+  width: 95%;
+  background-color: rgba(12, 24, 46, 0.993);
+  box-shadow: 10px 10px 2.5px rgba(0, 0, 0, 0.418);
+}
+
+.card-title
+{
+  color: rgba(255, 255, 255, 0.863);
+  font-family: 'Special Elite';
+  margin-top: 10px;
+}
+
+.card-text
+{
+  color:rgb(243, 248, 244);
+  font-family: 'Cutive Mono';
+  font-size: 18px;
+}
+
+
+/********CONNECT *********************/
+
+.contact
+{
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+  color:#02203c;
+  font-family: monospace;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/********FOOTER *********************/
+.footerbar
+{
+  /*background-image: linear-gradient(to right, rgb(67, 187, 235), rgba(147, 233, 48, 0.973));*/
+  padding-left: 10px;
+  background-image: linear-gradient(to right,  #01101f,#02203c);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 8px;
+   display: inline-block;
+   color: white;
+}
+
+#footer-bar
+{
+  
+  bottom:0;
+  color: white;
+}
+
+.demo
+{
+  color: white;
+  font-family: monospace;
+}
+
+
+/********BUTTONS *********************/
+
+
+.btnBlack
+{
+  background-color: rgb(155, 155, 155);
+  border: none;
+  color: rgb(51, 50, 50);
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 1px 1px;
+  cursor: none;
+  border-radius: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-shadow: 5px 5px;
+  pointer-events: none;
+}
+
+.btnBlack:hover
+{
+  text-decoration: none;
+  color: rgb(51, 50, 50);
+  pointer-events: none;
+  cursor: default;
+}
+
+
+
+
+.btnPython
+{
+  background-color: rgb(115, 255, 0);
+  border: none;
+  color: rgb(22, 75, 11);
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 1px 1px;
+  border-radius: 3px;
+  font-family: monospace;
+  box-shadow: 5px 5px;
+  pointer-events: none;
+  cursor: default;
+}
+
+.btnPython:hover
+{
+  text-decoration: none;
+  color: rgb(22, 75, 11);
+  pointer-events: none;
+  cursor: default;
+}
+
+.btnStart
+{
+  background-color: rgba(87, 129, 8, 0.815);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 3px 3px;
+  cursor: default;
+  border-radius: 5px;
+  pointer-events: pointer;
+  font-family: Poppins;
+  
+  
+}
+
+.btnStart:hover
+{
+  text-decoration: none;
+  color: rgb(90, 151, 20);
+  background-color: rgba(233, 233, 233, 0.836);
+  box-shadow: 5px 5px;
+  
+}
+
+input[type=text], select, textarea
+{
+  width: auto;
+  padding: 3px;
+  border: 2px solid rgb(100, 145, 18);
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+
+}
+
+td
+{
+  font-family: Poppins;
+  padding: 4px;
+  width:auto;
+  
+}
+
+.container2 {
+  border-radius: 15px;
+  background-color: rgba(47, 42, 48, 0.404);
+  padding: 8px;
+  box-shadow: 7px 7px 10px black;
+  border-style: outset;
+  border-color: rgba(100, 250, 217, 0.281);
+  width:auto;
+  
+}
+
